@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  padding: 50px;
 }
 
 .App-logo {
@@ -35,4 +36,54 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+h1 {
+  margin-bottom: 40px;
+}
+
+.red { color: red }
+
+th, td {
+  padding: 10px 10px;
+  border-radius: 4px;
+}
+
+.table-cat {
+  background-color: aliceblue;
+}
+
+table {
+  margin: 50px auto;
+  min-width: 50vw;
+  border-spacing: 10px;
+  text-align: left;
+}
+
+thead {
+  background-color: dodgerblue;
+  color: white;
+  font-size: .8rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+input[type="text"] {
+  border: 0;
+  padding: 15px;
+  background-color: #f1f1f1;
+  border-radius: 4px;
+  width: 400px;
+  margin-right: 20px;
+}
+
+#search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-row {
+  display: flex;
+  align-items: flex-end;
 }
